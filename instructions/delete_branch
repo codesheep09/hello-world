@@ -1,0 +1,7 @@
+git branch를 삭제하고 github에 반영하기
+
+1. Local Branch 삭제
+git branch -d <branch name>
+
+2. Remote Branch 삭제
+git push origin --delete <branch name>	// 원격저장소 branch 삭제
